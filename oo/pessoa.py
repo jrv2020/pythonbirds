@@ -18,4 +18,8 @@ if __name__ == '__main__':
         print(ronaldo.idade)
         for filho in ronaldo.filhos:
             print(filho.nome)
-
+        ronaldo.sobrenome = 'vieira'
+        del ronaldo.filhos
+        print(ronaldo.__dict__)
+        print(yaya.__dict__)
+        
