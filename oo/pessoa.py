@@ -16,6 +16,7 @@ class Pessoa():
     @classmethod
     def nome_e_atributos_de_classe(cls):
         return f'{cls}-olhos{cls.olhos}'
+        return f'Meu nome é {self.nome}'
 
 
 class Homem(Pessoa):
@@ -59,3 +60,5 @@ if __name__ == '__main__':
         print('Digite uma palavra e pressione enter')
         input('-->')
         print(ronaldo.olhos)
+        print(yaya.cumprimentar())
+        print(ronaldo.cumprimentar())
