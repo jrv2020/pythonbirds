@@ -189,7 +189,6 @@ class PassaroBaseTests(TestCase):
         self.assertEqual(y_esperado, round(y_calculado), 'valor real de y = %s' % y_calculado)
         self.assertEqual(status_esperado, passaro.status, '(x = %s, y = %s)' % (x_calculado, y_calculado))
 
-
 class PassaroVermelhoTests(PassaroBaseTests):
     """
     Classe de teste e Passaro Vermelho
@@ -201,7 +200,6 @@ class PassaroVermelhoTests(PassaroBaseTests):
         outro_ator_na_mesma_posicao = Ator()
         passaro_vermelho.colidir(outro_ator_na_mesma_posicao)
         self.assertEqual('v', passaro_vermelho.caracter())
-
 
     def teste_velocidade_escalar(self):
         self.assertEqual(20, PassaroVermelho.velocidade_escalar)
