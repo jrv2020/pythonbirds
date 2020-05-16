@@ -30,6 +30,10 @@
           <option name="url" value="git@github.com:jorovi2020/successions.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:jrv2020/remaking_studying_python.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Windows\PycharmProjects" />
